@@ -162,8 +162,8 @@ public class Login extends JInternalFrame implements ActionListener{
     	Statement stmt = con.createStatement();
     	
     	
-    	String sql = "SELECT * FROM login";
-		ResultSet rs=stmt.executeQuery(sql);
+    	String sql = "SELECT * FROM login"; //Selects login table from database.
+		ResultSet rs=stmt.executeQuery(sql);  
     	
 		
 		
